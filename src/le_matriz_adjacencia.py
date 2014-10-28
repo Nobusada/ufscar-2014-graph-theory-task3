@@ -75,7 +75,7 @@ for dataset in dataset_list:
 
     print "'Enter' para remover uma aresta, 'e' para passar para o próximo grafo, ou sair do programa no último grafo"
     while raw_input() != "e":
-        print "Removendo a aresta de maior peso!!!!!!!!!!!"
+        print "Removendo a aresta de maior peso!!!!!!!!!!"
 
         # Remoção efetiva da aresta que possui o maior peso
         mst.remove_edge(edges_by_weight[0][0], edges_by_weight[0][1])
