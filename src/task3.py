@@ -69,6 +69,7 @@ for dataset in dataset_list:
 
     # Função que ordena inversamente pelo peso, por causa da função lambda utilizada
     edges_by_weight = sorted([(i,j,mst.edge[i][j]['weight']) for i,j in mst.edges()], key=lambda a:a[2], reverse=True)
+    print edges_by_weight
     name_counter = 0
     # Remoção das arestas com maior peso para a detecção de comunidades
     # Press "e" to exit
